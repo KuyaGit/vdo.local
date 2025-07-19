@@ -1,0 +1,7 @@
+services:
+  vdo-ninja:
+    build: .
+    container_name: vdo-ninja
+    ports:
+      - "8080:80"
+    restart: unless-stopped
